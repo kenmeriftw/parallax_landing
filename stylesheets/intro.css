@@ -1,0 +1,20 @@
+.intro {
+
+}
+
+.intro-logo {
+  width: 80px;
+  height: auto;
+  float: left;
+}
+
+.intro h1 {
+  width: 400px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: black;
+}
+
+
