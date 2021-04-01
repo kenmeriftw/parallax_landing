@@ -1,4 +1,12 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .text-right {
   float: right;
   text-align: right;
+}
+
+.title-large {
+  font-size: 1.4em;
 }
