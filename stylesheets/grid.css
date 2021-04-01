@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
+}
+
+.wrapper {
+  background-image: url("../images/background.jpeg");
+  background-size: 100%;
+}
+
+.wrapper:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.header-logo {
+  margin-left: 20px;
+}
+
+.header-block {
+  height: 110px;
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.header-block h4 {
+  margin: 0;
+}
+
+.header-block a {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 15px
+}
+
+.social-links {
+  margin-top: 0;
+}
