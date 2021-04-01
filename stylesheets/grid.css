@@ -28,11 +28,7 @@ body {
 .header-block {
   height: 110px;
   width: 30%;
-  margin-top: 40px;
-  margin-bottom: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
+  margin: 40px 20px 0;
 }
 
 .header-block h4 {
@@ -46,5 +42,12 @@ body {
 }
 
 .social-links {
-  margin-top: 0;
+  margin-top: 10px;
 }
+
+.column-1-2 {
+  float: left;
+  width: 50%;
+}
+
+
