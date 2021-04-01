@@ -1,0 +1,39 @@
+.wrapper {
+  background-image: url("../images/lightpink.jpeg");
+  background-size: 100%;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 3em;
+  margin: 0;
+}
+
+.features-list li {
+  list-style: none;
+  margin: 10px;
+}
+
+.user-input label {
+  margin-top: 20px;
+}
+
+.user-input input {
+  width: 50%;
+  margin: 10px auto auto;
+  padding: 12px 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: lightpink;
+  opacity: .3;
+}
+
+.user-input input:focus {
+  border: 3px solid black;
+  opacity: .7;
+}
+
+.user-input input[type=submit] {
+  opacity: .7;
+}
