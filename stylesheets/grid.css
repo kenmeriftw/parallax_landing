@@ -95,7 +95,7 @@ body {
 }
 
 .map {
-  width: inherit;
+  width: auto;
 }
 
 .feedback-grid {
@@ -115,4 +115,12 @@ body {
 .footer h4 {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .images-in-grid img {
+    width: 100px;
+    padding: 5px;
+  }
+
 }
