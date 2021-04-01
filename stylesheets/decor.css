@@ -6,8 +6,8 @@
 .social-links a {
   text-decoration: none;
   color: black;
-  font-size: 3em;
-  margin: 0;
+  font-size: 2em;
+
 }
 
 .features-list li {
@@ -36,4 +36,9 @@
 
 .user-input input[type=submit] {
   opacity: .7;
+}
+
+.customer-name {
+  font-size: smaller;
+  font-style: italic;
 }
