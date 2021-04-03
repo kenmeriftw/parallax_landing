@@ -7,7 +7,6 @@
   text-decoration: none;
   color: black;
   font-size: 2em;
-
 }
 
 .features-list li {
@@ -41,4 +40,8 @@
 .customer-name {
   font-size: smaller;
   font-style: italic;
+}
+
+.feedback-text {
+  font-size: small;
 }
