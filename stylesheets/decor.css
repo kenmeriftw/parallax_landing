@@ -26,6 +26,7 @@
   border-radius: 4px;
   background-color: lightpink;
   opacity: .3;
+  font-size: 0.8em;
 }
 
 .user-input input:focus {
@@ -44,4 +45,17 @@
 
 .feedback-text {
   font-size: small;
+}
+
+@media screen and (max-width: 500px) {
+  .user-input input {
+    font-size: 0.5em;
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .user-input input {
+    font-size: 0.4em;
+  }
 }
