@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,96 +11,102 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
   <link href="fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      const image = document.getElementsByClassName('parallax');
+      new simpleParallax(image, {
+        scale: 1.3
+      });
+    }
+  </script>
 </head>
+
 <body>
-<div class="wrapper">
-  <div class="header">
-    <img class="header-logo" src="images/logo.png" alt="Logo"/>
-    <h1 class="title-large header-block text-center">Ногтевой сервис от Виктории Парусниковой</h1>
-    <div class="ordinary header-block text-center">
+  <div class="wrapper">
+    <div class="header">
+      <img class="header-logo" src="images/logo.png" alt="Logo" />
+      <h1 class="title-large header-block text-center">Ногтевой сервис от Виктории Парусниковой</h1>
+      <div class="ordinary header-block text-center">
+        <h4>+7 (978) 837-69-28</h4>
+        <h4>г. Севастополь, ул. Тараса Шевченко, 49/1</h4>
+      </div>
+      <div class="social-links header-block text-center">
+        <a class="fab fa-instagram" href="https://www.instagram.com/parusnikovanail/"></a>
+        <a class="fab fa-vk" href="https://vk.com"></a>
+        <a class="fab fa-youtube" href=""></a>
+      </div>
+    </div>
+
+    <div class="visit-me">
+      <div class="column-1-2">
+        <h1 class="title-large text-center">Маникюр и педикюр от Виктории Парусниковой</h1>
+        <ul class="features-list">
+          <li>Идеальный маникюр с гарантией до 7 дней</li>
+          <li>Лучшее покрытие в городе</li>
+          <li>Материалы от лучших производителей</li>
+          <li>Процесс стерелизации согласно постановлению Роспотребнадзора №303 от 05.12.2020</li>
+        </ul>
+      </div>
+      <div class="column-1-2">
+        <h3 class="text-center">Записаться онлайн</h3>
+        <p class="text-center">Оставьте Ваши контактные данные и мы свяжемся с Вами в течение 15 минут</p>
+        <div class="user-input">
+          <input placeholder="Ваше имя" />
+          <input placeholder="Ваш номер телефона" />
+          <input placeholder="Желаемые дата и время" />
+          <input type="submit" value="Оставить заявку">
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio text-center">
+      <h3>Мои работы</h3>
+      <p>
+        Мой многолетний опыт работы в качестве мастера ногтевого сервиса позволяет успешно
+        применять все самые современные методики выполнения маникюра и педикюра.
+      </p>
+      <div>
+        <img class="parallax" src="images/maniq.jpeg" alt="Manik" />
+      </div>
+    </div>
+
+    <div class="feedback">
+      <h1 class="text-center">Отзывы о моей работе</h1>
+      <div class="feedback-grid">
+        <div class="column-1-3">
+          <img class="customer-photo" src="images/girl.png" alt="Client">
+          <p class="customer-name">Ольга Ольговна</p>
+          <p class="feedback-text">Я страсть как довольна работой мастера!</p>
+        </div>
+        <div class="column-1-3">
+          <img class="customer-photo" src="images/girl.png" alt="Client">
+          <p class="customer-name">Ольга Ольговна</p>
+          <p class="feedback-text">Я страсть как довольна работой мастера!</p>
+        </div>
+        <div class="column-1-3">
+          <img class="customer-photo" src="images/girl.png" alt="Client">
+          <p class="customer-name">Ольга Ольговна</p>
+          <p class="feedback-text">Я страсть как довольна работой мастера!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h3>Девочки, буду рада видеть вас!</h3>
       <h4>+7 (978) 837-69-28</h4>
       <h4>г. Севастополь, ул. Тараса Шевченко, 49/1</h4>
-    </div>
-    <div class="social-links header-block text-center">
-      <a class="fab fa-instagram" href="https://www.instagram.com/parusnikovanail/"></a>
-      <a class="fab fa-vk" href="https://vk.com"></a>
-      <a class="fab fa-youtube" href=""></a>
-    </div>
-  </div>
-
-  <div class="visit-me">
-    <div class="column-1-2">
-      <h1 class="title-large text-center">Маникюр и педикюр от Виктории Парусниковой</h1>
-      <ul class="features-list">
-        <li>Идеальный маникюр с гарантией до 7 дней</li>
-        <li>Лучшее покрытие в городе</li>
-        <li>Материалы от лучших производителей</li>
-        <li>Процесс стерелизации согласно постановлению Роспотребнадзора №303 от 05.12.2020</li>
-      </ul>
-    </div>
-    <div class="column-1-2">
-      <h3 class="text-center">Записаться онлайн</h3>
-      <p class="text-center">Оставьте Ваши контактные данные и мы свяжемся с Вами в течение 15 минут</p>
-      <div class="user-input">
-        <input placeholder="Ваше имя"/>
-        <input placeholder="Ваш номер телефона"/>
-        <input placeholder="Желаемые дата и время"/>
-        <input type="submit" value="Оставить заявку">
+      <div class="social-links text-center">
+        <a class="fab fa-instagram" href="https://www.instagram.com/parusnikovanail/"></a>
+        <a class="fab fa-vk" href="#"></a>
+        <a class="fab fa-youtube" href="#"></a>
       </div>
     </div>
-  </div>
 
-  <div class="portfolio">
-    <h3 class="text-center">Мои работы</h3>
-    <p class="text-center">
-      Мой многолетний опыт работы в качестве мастера ногтевого сервиса позволяет успешно
-      применять все самые современные методики выполнения маникюра и педикюра.
-    </p>
-    <div class="images-in-grid">
-      <img src="images/manik.jpeg" alt="Manik"/>
-      <img src="images/manik.jpeg" alt="Manik"/>
-      <img src="images/manik.jpeg" alt="Manik"/>
-      <img src="images/manik.jpeg" alt="Manik"/>
-      <img src="images/manik.jpeg" alt="Manik"/>
-      <img src="images/manik.jpeg" alt="Manik"/>
+    <div class="map">
+      <script async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab486922dcb2e98cd78a2374487e58dfd5b82e9911c44ccd9fd4c7057b24196a6&amp;width=95%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
   </div>
-
-  <div class="feedback">
-    <h1 class="text-center">Отзывы о моей работе</h1>
-    <div class="feedback-grid">
-      <div class="column-1-3">
-        <img class="customer-photo" src="images/girl.png" alt="Client">
-        <p class="customer-name">Ольга Ольговна</p>
-        <p class="feedback-text">Я страсть как довольна работой мастера!</p>
-      </div>
-      <div class="column-1-3">
-        <img class="customer-photo" src="images/girl.png" alt="Client">
-        <p class="customer-name">Ольга Ольговна</p>
-        <p class="feedback-text">Я страсть как довольна работой мастера!</p>
-      </div>
-      <div class="column-1-3">
-        <img class="customer-photo" src="images/girl.png" alt="Client">
-        <p class="customer-name">Ольга Ольговна</p>
-        <p class="feedback-text">Я страсть как довольна работой мастера!</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <h3>Девочки, буду рада видеть вас!</h3>
-    <h4>+7 (978) 837-69-28</h4>
-    <h4>г. Севастополь, ул. Тараса Шевченко, 49/1</h4>
-    <div class="social-links text-center">
-      <a class="fab fa-instagram" href="https://www.instagram.com/parusnikovanail/"></a>
-      <a class="fab fa-vk" href="#"></a>
-      <a class="fab fa-youtube" href="#"></a>
-    </div>
-  </div>
-
-  <div class="map">
-    <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab486922dcb2e98cd78a2374487e58dfd5b82e9911c44ccd9fd4c7057b24196a6&amp;width=95%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
-  </div>
-</div>
 </body>
 </html>

@@ -77,15 +77,8 @@ body {
   margin: 20px auto;
 }
 
-.images-in-grid {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.images-in-grid img {
-  width: 300px;
-  padding: 5px;
+.parallax {
+  width: 60%
 }
 
 .feedback {
@@ -112,9 +105,14 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1700px) {
   .images-in-grid {
-    grid-template-columns: repeat(2, 1fr);
+    display: block;
+    text-align: center;
+  }
+
+  .left {
+    width: 800px;
   }
 }
 
@@ -147,11 +145,15 @@ body {
   .text-center {
     font-size: 0.8em;
   }
+
+  .left {
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 670px) {
-  .images-in-grid img {
-      width: 200px;
+  .left {
+      width: 400px;
   }
 }
 
